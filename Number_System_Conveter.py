@@ -106,6 +106,6 @@ B5 = Button(root,text="Convert", bg='silver', command=convert ,width=20,font=("b
 B5.place(x=230,y=370)
 out = Label(root, bg="chocolate4",font=("bold",12))
 out.place(x=230,y=420)
-explain = Button(root,text="Explanation", command=explaination ,bg='burlywood2', width=20, font=("bold",15))
+explain = Button(root,text="Explanation for Number System", command=explaination ,bg='burlywood2', width=20, font=("bold",15))
 explain.place(x=230,y=470)
 root.mainloop()
